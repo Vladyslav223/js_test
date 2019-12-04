@@ -18,11 +18,11 @@ class CheckBoxQuestion extends Component {
 
       const val = inputedValue.some(input => input);
 
-      return ({
+      return {
         id: key,
         validate: val,
         answer: inputedValue,
-      });
+      };
     }, () => this.props.handleChange(this.state));
   }
 
