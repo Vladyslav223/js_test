@@ -1,0 +1,25 @@
+select {
+    height: 40px;
+    width: auto;
+    font-family: inherit;
+    padding: 0 20px;
+    border: navajowhite;
+    background: #699dc166;
+    color: #545454;
+    outline: none;
+    border: 1px solid transparent;
+    transition: background 0.3s,  border 0.3s;
+    
+    &:hover {
+        background: #b2d3eb;        
+        cursor: pointer;
+    }
+    &:focus {
+        color: rgb(48, 63, 95);
+    }   
+}
+
+option {
+    background: #b7e5ef;
+    color: #3e5d93;
+}

@@ -1,0 +1,7 @@
+[
+    { "id": 1, "right": "false"},
+    { "id": 2, "right": [false, false, true, false], "variants": ["Событие цикла", "Бесконечный цикл событий", "Зацикленное событие"] },
+    { "id": 3, "right": [true, true, false, false], "variants": ["typeof 'object'", "typeof ('object')", "typeof { object }"] },
+    { "id": 4, "right": "object", "variants": ["array", "object", "NaN", "number"] },
+    { "id": 5, "right": "4" }
+]

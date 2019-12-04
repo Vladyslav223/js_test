@@ -1,0 +1,36 @@
+.overlay {
+    height: 300vh;
+    width: 100%;
+    position: absolute;
+    top: -130px;
+    background: #f1434385;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: fixed;
+    background: #e8e8e8;
+    width: 600px;
+    border: 1px solid #ffbcbc;
+    height: 250px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #525252;
+    padding: 94px 0 0px 0;
+    margin: 200px auto;
+    
+
+    &__footer button {
+        margin: 10px;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        font-family: inherit;
+        background: antiquewhite;
+        border: 1px solid #c9c9c9;
+        color: #575252;
+    }
+}
+
